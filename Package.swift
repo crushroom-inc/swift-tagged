@@ -5,7 +5,7 @@ import PackageDescription
 var package = Package(
   name: "Tagged",
   products: [
-    .library(name: "Tagged", targets: ["Tagged"]),
+    .library(name: "Tagged", type: .dynamic, targets: ["Tagged"]),
     .library(name: "TaggedMoney", targets: ["TaggedMoney"]),
     .library(name: "TaggedTime", targets: ["TaggedTime"]),
   ],
